@@ -1,0 +1,2956 @@
+{
+  "format": "phantom.custom-profile",
+  "profile": {
+    "client_hints": {
+      "hints": [
+        {
+          "delivery": "Default",
+          "name": "sec-ch-ua",
+          "value": [
+            34,
+            78,
+            111,
+            116,
+            58,
+            65,
+            45,
+            66,
+            114,
+            97,
+            110,
+            100,
+            34,
+            59,
+            118,
+            61,
+            34,
+            56,
+            34,
+            44,
+            32,
+            34,
+            67,
+            104,
+            114,
+            111,
+            109,
+            105,
+            117,
+            109,
+            34,
+            59,
+            118,
+            61,
+            34,
+            49,
+            53,
+            54,
+            34,
+            44,
+            32,
+            34,
+            71,
+            111,
+            111,
+            103,
+            108,
+            101,
+            32,
+            67,
+            104,
+            114,
+            111,
+            109,
+            101,
+            34,
+            59,
+            118,
+            61,
+            34,
+            49,
+            53,
+            54,
+            34
+          ]
+        },
+        {
+          "delivery": "Default",
+          "name": "sec-ch-ua-mobile",
+          "value": [
+            63,
+            48
+          ]
+        },
+        {
+          "delivery": "AcceptCh",
+          "name": "sec-ch-ua-full-version",
+          "value": [
+            34,
+            49,
+            53,
+            54,
+            46,
+            48,
+            46,
+            56,
+            48,
+            55,
+            56,
+            46,
+            52,
+            56,
+            34
+          ]
+        },
+        {
+          "delivery": "AcceptCh",
+          "name": "sec-ch-ua-arch",
+          "value": [
+            34,
+            120,
+            56,
+            54,
+            34
+          ]
+        },
+        {
+          "delivery": "Default",
+          "name": "sec-ch-ua-platform",
+          "value": [
+            34,
+            87,
+            105,
+            110,
+            100,
+            111,
+            119,
+            115,
+            34
+          ]
+        },
+        {
+          "delivery": "AcceptCh",
+          "name": "sec-ch-ua-platform-version",
+          "value": [
+            34,
+            49,
+            57,
+            46,
+            48,
+            46,
+            48,
+            34
+          ]
+        },
+        {
+          "delivery": "AcceptCh",
+          "name": "sec-ch-ua-model",
+          "value": [
+            34,
+            34
+          ]
+        },
+        {
+          "delivery": "AcceptCh",
+          "name": "sec-ch-ua-bitness",
+          "value": [
+            34,
+            54,
+            52,
+            34
+          ]
+        },
+        {
+          "delivery": "AcceptCh",
+          "name": "sec-ch-ua-wow64",
+          "value": [
+            63,
+            48
+          ]
+        },
+        {
+          "delivery": "AcceptCh",
+          "name": "sec-ch-ua-full-version-list",
+          "value": [
+            34,
+            78,
+            111,
+            116,
+            58,
+            65,
+            45,
+            66,
+            114,
+            97,
+            110,
+            100,
+            34,
+            59,
+            118,
+            61,
+            34,
+            56,
+            46,
+            48,
+            46,
+            48,
+            46,
+            48,
+            34,
+            44,
+            32,
+            34,
+            67,
+            104,
+            114,
+            111,
+            109,
+            105,
+            117,
+            109,
+            34,
+            59,
+            118,
+            61,
+            34,
+            49,
+            53,
+            54,
+            46,
+            48,
+            46,
+            56,
+            48,
+            55,
+            56,
+            46,
+            52,
+            56,
+            34,
+            44,
+            32,
+            34,
+            71,
+            111,
+            111,
+            103,
+            108,
+            101,
+            32,
+            67,
+            104,
+            114,
+            111,
+            109,
+            101,
+            34,
+            59,
+            118,
+            61,
+            34,
+            49,
+            53,
+            54,
+            46,
+            48,
+            46,
+            56,
+            48,
+            55,
+            56,
+            46,
+            52,
+            56,
+            34
+          ]
+        },
+        {
+          "delivery": "AcceptCh",
+          "name": "sec-ch-ua-form-factors",
+          "value": [
+            34,
+            68,
+            101,
+            115,
+            107,
+            116,
+            111,
+            112,
+            34
+          ]
+        }
+      ]
+    },
+    "cookie_placement": {
+      "before": []
+    },
+    "dns_cache": null,
+    "http1": {
+      "idle_timeout": {
+        "duration": {
+          "nanoseconds": 0,
+          "seconds": 300
+        },
+        "kind": "CheckedOnRequest"
+      },
+      "max_connections_per_origin": 6
+    },
+    "http2": {
+      "extended_connect_priority": {
+        "dependency_stream_id": 0,
+        "exclusive": true,
+        "weight": 147
+      },
+      "extended_connect_pseudo_header_order": [
+        "Method",
+        "Authority",
+        "Scheme",
+        "Path",
+        "Protocol"
+      ],
+      "headers_priority": {
+        "dependency_stream_id": 0,
+        "exclusive": true,
+        "weight": 256
+      },
+      "hpack": {
+        "cookie_crumbs": "IndexAll",
+        "field_indexing": "All",
+        "huffman_coding": "WhenShorter",
+        "indexing_limit": "Unlimited",
+        "literal_pseudo_headers": [
+          "Method",
+          "Protocol"
+        ],
+        "name_reference": "StaticThenNewest",
+        "sensitive_proxy_authorization": "FieldIndexing",
+        "static_name_index": "Lowest",
+        "table_size_updates": "WhenChanged",
+        "unindexed_match": "Index"
+      },
+      "idle_ping_after": null,
+      "idle_ping_timeout": null,
+      "idle_timeout": {
+        "duration": null,
+        "kind": "Unlimited"
+      },
+      "initial_connection_window_size": 15728640,
+      "initial_settings": [
+        {
+          "kind": "HeaderTableSize",
+          "value": 65536
+        },
+        {
+          "kind": "EnablePush",
+          "value": false
+        },
+        {
+          "kind": "InitialWindowSize",
+          "value": 6291456
+        },
+        {
+          "kind": "MaxHeaderListSize",
+          "value": 262144
+        }
+      ],
+      "initial_stream_window_target": null,
+      "ping_failure_retries": 2,
+      "ping_timeout": {
+        "nanoseconds": 0,
+        "seconds": 10
+      },
+      "preface_ping_after": {
+        "nanoseconds": 0,
+        "seconds": 10
+      },
+      "pseudo_header_order": [
+        "Method",
+        "Authority",
+        "Scheme",
+        "Path"
+      ],
+      "streams": {
+        "assumed_max_concurrent_streams": 100,
+        "first_stream_id": 1,
+        "max_concurrent_streams_cap": 256
+      }
+    },
+    "http3": {
+      "http3": {
+        "alt_svc_validation": "OnRequest",
+        "connection_reuse": "SameOrigin",
+        "initial_settings": [
+          {
+            "kind": "QpackMaxTableCapacity",
+            "value": 65536
+          },
+          {
+            "kind": "MaxFieldSectionSize",
+            "value": 262144
+          },
+          {
+            "kind": "QpackBlockedStreams",
+            "value": 100
+          },
+          {
+            "kind": "H3Datagram",
+            "value": true
+          },
+          {
+            "kind": "RandomizedGrease",
+            "value": null
+          }
+        ],
+        "misdirected_request": "ReturnResponse",
+        "qpack_decoder_stream": "OnFeedback",
+        "qpack_encoder_stream": "OnFirstInstruction",
+        "qpack_encoding": "Dynamic",
+        "qpack_stream_order": "DecoderFirst",
+        "reserved_frame_after_settings": false,
+        "setting_order": "Ascending"
+      },
+      "quic_transport": {
+        "active_connection_id_limit": 2,
+        "early_data": true,
+        "initial_destination_connection_id": null,
+        "initial_max_data": 15728640,
+        "initial_max_stream_data_bidi_local": 6291456,
+        "initial_max_stream_data_bidi_remote": 6291456,
+        "initial_max_stream_data_uni": 6291456,
+        "initial_max_streams_bidi": 100,
+        "initial_max_streams_uni": 103,
+        "initial_path_mtu": null,
+        "max_ack_delay_ms": 25,
+        "max_datagram_frame_size": 65536,
+        "max_idle_timeout_ms": 30000,
+        "max_udp_payload_size": 1472,
+        "min_ack_delay_us": null,
+        "parameter_order": "Permuted",
+        "reset_stream_at": false,
+        "wire_parameters": [
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "InitialMaxStreamsBidi",
+              "value_width": "Two"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "InitialMaxStreamDataUni",
+              "value_width": "Four"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "available_version_count": 1,
+              "grease": "Permuted",
+              "kind": "VersionInformation"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "InitialMaxData",
+              "value_width": "Four"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "InitialMaxStreamsUni",
+              "value_width": "Two"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "InitialMaxStreamDataBidiRemote",
+              "value_width": "Four"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "MaxIdleTimeout",
+              "value_width": "Four"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "Two",
+            "kind": {
+              "kind": "GoogleConnectionOptions",
+              "options": [
+                "RequestOriginFrame"
+              ]
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "MaxDatagramFrameSize",
+              "value_width": "Four"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "Eight",
+            "kind": {
+              "kind": "Grease",
+              "maximum_payload_length": 15,
+              "minimum_payload_length": 0
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "MaxUdpPayloadSize",
+              "value_width": "Two"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "InitialMaxStreamDataBidiLocal",
+              "value_width": "Four"
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "One",
+            "kind": {
+              "kind": "InitialSourceConnectionId",
+              "length": 0
+            },
+            "length_width": "One"
+          },
+          {
+            "id_width": "Two",
+            "kind": {
+              "kind": "InitialRtt"
+            },
+            "length_width": "One"
+          }
+        ]
+      },
+      "request": {
+        "alt_used": "Omit",
+        "alt_used_port": "Explicit",
+        "cookie_crumbs": "Split",
+        "extended_connect_pseudo_header_order": null,
+        "pseudo_header_order": [
+          "Method",
+          "Authority",
+          "Scheme",
+          "Path"
+        ]
+      },
+      "tls": {
+        "aes_hardware": true,
+        "alpn_protocols": [
+          [
+            104,
+            51
+          ]
+        ],
+        "alps": {
+          "protocol": [
+            104,
+            51
+          ],
+          "settings": [],
+          "use_new_codepoint": true
+        },
+        "certificate_compression": [
+          "Brotli"
+        ],
+        "cipher_suites": [
+          "Aes128GcmSha256",
+          "Aes256GcmSha384",
+          "Chacha20Poly1305Sha256"
+        ],
+        "close_notify": false,
+        "delegated_credential_schemes": [],
+        "ech": {
+          "kind": "HttpsRecords",
+          "settings": {
+            "aeads": [],
+            "payload_length": {
+              "kind": "BackendDefault",
+              "value": null
+            }
+          }
+        },
+        "extension_order": {
+          "extensions": [],
+          "kind": "Permuted"
+        },
+        "grease": false,
+        "grease_signature_algorithms": false,
+        "groups": [
+          "X25519MlKem768",
+          "X25519",
+          "Secp256r1",
+          "Secp384r1"
+        ],
+        "key_shares": [
+          "X25519MlKem768",
+          "X25519"
+        ],
+        "record_size_limit": null,
+        "request_ocsp_staple": false,
+        "request_signed_certificate_timestamps": false,
+        "requested_trust_anchor_ids": {
+          "kind": "Fixed",
+          "orders": [
+            [
+              [
+                130,
+                223,
+                19,
+                2,
+                1
+              ],
+              [
+                130,
+                223,
+                19,
+                2,
+                6
+              ],
+              [
+                130,
+                223,
+                19,
+                2,
+                13
+              ],
+              [
+                130,
+                223,
+                19,
+                2,
+                14
+              ],
+              [
+                130,
+                223,
+                19,
+                2,
+                15
+              ],
+              [
+                130,
+                223,
+                19,
+                2,
+                18
+              ],
+              [
+                130,
+                223,
+                19,
+                2,
+                19
+              ],
+              [
+                130,
+                223,
+                19,
+                2,
+                20
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                7
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                8
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                9
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                10
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                11
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                12
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                13
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                18
+              ],
+              [
+                131,
+                154,
+                100,
+                140,
+                155,
+                45,
+                1,
+                19
+              ],
+              [
+                214,
+                121,
+                9,
+                1
+              ],
+              [
+                214,
+                121,
+                9,
+                4
+              ],
+              [
+                214,
+                121,
+                9,
+                5
+              ],
+              [
+                214,
+                121,
+                9,
+                6
+              ],
+              [
+                214,
+                121,
+                9,
+                7
+              ],
+              [
+                214,
+                121,
+                9,
+                8
+              ],
+              [
+                214,
+                121,
+                9,
+                10
+              ],
+              [
+                214,
+                121,
+                9,
+                11
+              ],
+              [
+                214,
+                121,
+                9,
+                12
+              ],
+              [
+                214,
+                121,
+                9,
+                13
+              ],
+              [
+                214,
+                121,
+                9,
+                15
+              ]
+            ]
+          ]
+        },
+        "session_ticket_extension_when_resuming": true,
+        "session_ticket_order": "NewestFirst",
+        "session_tickets": {
+          "enabled": true,
+          "tcp_per_origin": 2
+        },
+        "signature_schemes": [
+          "EcdsaSecp256r1Sha256",
+          "RsaPssRsaeSha256",
+          "RsaPkcs1Sha256",
+          "EcdsaSecp384r1Sha384",
+          "RsaPssRsaeSha384",
+          "RsaPkcs1Sha384",
+          "RsaPssRsaeSha512",
+          "RsaPkcs1Sha512",
+          "RsaPkcs1Sha1"
+        ],
+        "tcp_early_data": false,
+        "tls12_extensions_in_tls13_client_hello": false,
+        "versions": {
+          "max": "Tls13",
+          "min": "Tls13"
+        }
+      }
+    },
+    "proxy_connect": null,
+    "request_contexts": {
+      "Fetch": {
+        "http1_fields": [
+          {
+            "forwarded": null,
+            "name": "Connection",
+            "unforwarded": "keep-alive",
+            "variant": "ByForwarding"
+          },
+          {
+            "forwarded": "keep-alive",
+            "name": "Proxy-Connection",
+            "unforwarded": null,
+            "variant": "ByForwarding"
+          },
+          {
+            "attempt": "Every",
+            "name": "Proxy-Authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "trustworthy": "empty",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Referer",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "Accept-Encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "If-None-Match",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "If-Modified-Since",
+            "required": false,
+            "variant": "Caller"
+          }
+        ],
+        "http2_fields": [
+          {
+            "attempt": "Every",
+            "name": "proxy-authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "empty",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "if-none-match",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "if-modified-since",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "priority",
+            "value": "u=1, i",
+            "variant": "Literal"
+          }
+        ],
+        "http2_priority": {
+          "dependency_stream_id": 0,
+          "exclusive": true,
+          "variant": "Fixed",
+          "weight": 220
+        },
+        "http3_fields": null,
+        "requested_client_hint_placement": false,
+        "restarts_for_connection_accept_ch": false
+      },
+      "FetchNoStore": {
+        "http1_fields": [
+          {
+            "forwarded": null,
+            "name": "Connection",
+            "unforwarded": "keep-alive",
+            "variant": "ByForwarding"
+          },
+          {
+            "forwarded": "keep-alive",
+            "name": "Proxy-Connection",
+            "unforwarded": null,
+            "variant": "ByForwarding"
+          },
+          {
+            "name": "Pragma",
+            "value": "no-cache",
+            "variant": "Literal"
+          },
+          {
+            "name": "Cache-Control",
+            "value": "no-cache",
+            "variant": "Literal"
+          },
+          {
+            "attempt": "Every",
+            "name": "Proxy-Authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "trustworthy": "empty",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Referer",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "Accept-Encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "http2_fields": [
+          {
+            "name": "pragma",
+            "value": "no-cache",
+            "variant": "Literal"
+          },
+          {
+            "name": "cache-control",
+            "value": "no-cache",
+            "variant": "Literal"
+          },
+          {
+            "attempt": "Every",
+            "name": "proxy-authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "empty",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=1, i",
+            "variant": "Literal"
+          }
+        ],
+        "http2_priority": {
+          "dependency_stream_id": 0,
+          "exclusive": true,
+          "variant": "Fixed",
+          "weight": 220
+        },
+        "http3_fields": [
+          {
+            "name": "pragma",
+            "value": "no-cache",
+            "variant": "Literal"
+          },
+          {
+            "name": "cache-control",
+            "value": "no-cache",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "empty",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=1, i",
+            "variant": "Literal"
+          }
+        ],
+        "requested_client_hint_placement": false,
+        "restarts_for_connection_accept_ch": false
+      },
+      "FetchUpload": {
+        "http1_fields": [
+          {
+            "forwarded": null,
+            "name": "Connection",
+            "unforwarded": "keep-alive",
+            "variant": "ByForwarding"
+          },
+          {
+            "forwarded": "keep-alive",
+            "name": "Proxy-Connection",
+            "unforwarded": null,
+            "variant": "ByForwarding"
+          },
+          {
+            "attempt": "Every",
+            "name": "Proxy-Authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "Content-Length",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "Content-Type",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "Origin",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "trustworthy": "empty",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "Accept-Encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "http2_fields": [
+          {
+            "attempt": "Every",
+            "name": "proxy-authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "content-length",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "content-type",
+            "required": false,
+            "variant": "Caller"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "origin",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "empty",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=1, i",
+            "variant": "Literal"
+          }
+        ],
+        "http2_priority": {
+          "dependency_stream_id": 0,
+          "exclusive": true,
+          "variant": "Fixed",
+          "weight": 220
+        },
+        "http3_fields": null,
+        "requested_client_hint_placement": false,
+        "restarts_for_connection_accept_ch": false
+      },
+      "Font": {
+        "http1_fields": [
+          {
+            "forwarded": null,
+            "name": "Connection",
+            "unforwarded": "keep-alive",
+            "variant": "ByForwarding"
+          },
+          {
+            "forwarded": "keep-alive",
+            "name": "Proxy-Connection",
+            "unforwarded": null,
+            "variant": "ByForwarding"
+          },
+          {
+            "attempt": "Every",
+            "name": "Proxy-Authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "Origin",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "trustworthy": "font",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "Accept-Encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "http2_fields": [
+          {
+            "attempt": "Every",
+            "name": "proxy-authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "origin",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "font",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=0",
+            "variant": "Literal"
+          }
+        ],
+        "http2_priority": {
+          "exclusive": true,
+          "variant": "WeightBand",
+          "weight": 256
+        },
+        "http3_fields": [
+          {
+            "name": "origin",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "font",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=0",
+            "variant": "Literal"
+          }
+        ],
+        "requested_client_hint_placement": false,
+        "restarts_for_connection_accept_ch": false
+      },
+      "Image": {
+        "http1_fields": [
+          {
+            "forwarded": null,
+            "name": "Connection",
+            "unforwarded": "keep-alive",
+            "variant": "ByForwarding"
+          },
+          {
+            "forwarded": "keep-alive",
+            "name": "Proxy-Connection",
+            "unforwarded": null,
+            "variant": "ByForwarding"
+          },
+          {
+            "attempt": "Every",
+            "name": "Proxy-Authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "Accept",
+            "value": "image/jxl,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+            "variant": "Literal"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "trustworthy": "image",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "Accept-Encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "http2_fields": [
+          {
+            "attempt": "Every",
+            "name": "proxy-authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "image/jxl,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "image",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "i",
+            "variant": "Literal"
+          }
+        ],
+        "http2_priority": {
+          "exclusive": true,
+          "variant": "WeightBand",
+          "weight": 147
+        },
+        "http3_fields": [
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "image/jxl,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "image",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "i",
+            "variant": "Literal"
+          }
+        ],
+        "requested_client_hint_placement": false,
+        "restarts_for_connection_accept_ch": false
+      },
+      "Navigation": {
+        "http1_fields": [
+          {
+            "forwarded": null,
+            "name": "Connection",
+            "unforwarded": "keep-alive",
+            "variant": "ByForwarding"
+          },
+          {
+            "forwarded": "keep-alive",
+            "name": "Proxy-Connection",
+            "unforwarded": null,
+            "variant": "ByForwarding"
+          },
+          {
+            "attempt": "Every",
+            "name": "Proxy-Authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "Upgrade-Insecure-Requests",
+            "value": "1",
+            "variant": "Literal"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "variant": "Literal"
+          },
+          {
+            "variant": "RestartClientHints"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "trustworthy": "none",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "trustworthy": "navigate",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-User",
+            "trustworthy": "?1",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "trustworthy": "document",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "http2_fields": [
+          {
+            "attempt": "Every",
+            "name": "proxy-authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "upgrade-insecure-requests",
+            "value": "1",
+            "variant": "Literal"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "variant": "Literal"
+          },
+          {
+            "variant": "RestartClientHints"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "none",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "navigate",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-user",
+            "trustworthy": "?1",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "document",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=0, i",
+            "variant": "Literal"
+          }
+        ],
+        "http2_priority": {
+          "exclusive": true,
+          "variant": "WeightBand",
+          "weight": 256
+        },
+        "http3_fields": [
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "upgrade-insecure-requests",
+            "value": "1",
+            "variant": "Literal"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "variant": "Literal"
+          },
+          {
+            "variant": "RestartClientHints"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "none",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "navigate",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-user",
+            "trustworthy": "?1",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "document",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=0, i",
+            "variant": "Literal"
+          }
+        ],
+        "requested_client_hint_placement": true,
+        "restarts_for_connection_accept_ch": true
+      },
+      "Script": {
+        "http1_fields": [
+          {
+            "forwarded": null,
+            "name": "Connection",
+            "unforwarded": "keep-alive",
+            "variant": "ByForwarding"
+          },
+          {
+            "forwarded": "keep-alive",
+            "name": "Proxy-Connection",
+            "unforwarded": null,
+            "variant": "ByForwarding"
+          },
+          {
+            "attempt": "Every",
+            "name": "Proxy-Authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "trustworthy": "script",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "Accept-Encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "http2_fields": [
+          {
+            "attempt": "Every",
+            "name": "proxy-authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "script",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "http2_priority": {
+          "exclusive": true,
+          "variant": "WeightBand",
+          "weight": 147
+        },
+        "http3_fields": [
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "*/*",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "script",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "requested_client_hint_placement": false,
+        "restarts_for_connection_accept_ch": false
+      },
+      "Stylesheet": {
+        "http1_fields": [
+          {
+            "forwarded": null,
+            "name": "Connection",
+            "unforwarded": "keep-alive",
+            "variant": "ByForwarding"
+          },
+          {
+            "forwarded": "keep-alive",
+            "name": "Proxy-Connection",
+            "unforwarded": null,
+            "variant": "ByForwarding"
+          },
+          {
+            "attempt": "Every",
+            "name": "Proxy-Authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "Accept",
+            "value": "text/css,*/*;q=0.1",
+            "variant": "Literal"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "trustworthy": "style",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "Accept-Encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          }
+        ],
+        "http2_fields": [
+          {
+            "attempt": "Every",
+            "name": "proxy-authorization",
+            "variant": "ProxyAuthorization"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "text/css,*/*;q=0.1",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "style",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=0",
+            "variant": "Literal"
+          }
+        ],
+        "http2_priority": {
+          "exclusive": true,
+          "variant": "WeightBand",
+          "weight": 256
+        },
+        "http3_fields": [
+          {
+            "name": "sec-ch-ua-platform",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-ch-ua",
+            "variant": "ClientHint"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "variant": "ClientHint"
+          },
+          {
+            "variant": "ClientHints"
+          },
+          {
+            "name": "accept",
+            "value": "text/css,*/*;q=0.1",
+            "variant": "Literal"
+          },
+          {
+            "name": "sec-fetch-site",
+            "trustworthy": "same-origin",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-mode",
+            "trustworthy": "no-cors",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "sec-fetch-dest",
+            "trustworthy": "style",
+            "untrustworthy": null,
+            "variant": "ByTrust"
+          },
+          {
+            "name": "referer",
+            "required": true,
+            "variant": "Caller"
+          },
+          {
+            "name": "accept-encoding",
+            "trustworthy": "gzip, deflate, br, zstd",
+            "untrustworthy": "gzip, deflate",
+            "variant": "ByTrust"
+          },
+          {
+            "name": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "variant": "Literal"
+          },
+          {
+            "name": "priority",
+            "value": "u=0",
+            "variant": "Literal"
+          }
+        ],
+        "requested_client_hint_placement": false,
+        "restarts_for_connection_accept_ch": false
+      }
+    },
+    "request_template": {
+      "http1_fields": [
+        {
+          "forwarded": null,
+          "name": "Connection",
+          "unforwarded": "keep-alive",
+          "variant": "ByForwarding"
+        },
+        {
+          "forwarded": "keep-alive",
+          "name": "Proxy-Connection",
+          "unforwarded": null,
+          "variant": "ByForwarding"
+        },
+        {
+          "attempt": "Every",
+          "name": "Proxy-Authorization",
+          "variant": "ProxyAuthorization"
+        },
+        {
+          "variant": "ClientHints"
+        },
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1",
+          "variant": "Literal"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "variant": "Literal"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "variant": "Literal"
+        },
+        {
+          "variant": "RestartClientHints"
+        },
+        {
+          "name": "Sec-Fetch-Site",
+          "trustworthy": "none",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "Sec-Fetch-Mode",
+          "trustworthy": "navigate",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "Sec-Fetch-User",
+          "trustworthy": "?1",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "Sec-Fetch-Dest",
+          "trustworthy": "document",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "Accept-Encoding",
+          "trustworthy": "gzip, deflate, br, zstd",
+          "untrustworthy": "gzip, deflate",
+          "variant": "ByTrust"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-US,en;q=0.9",
+          "variant": "Literal"
+        }
+      ],
+      "http2_fields": [
+        {
+          "attempt": "Every",
+          "name": "proxy-authorization",
+          "variant": "ProxyAuthorization"
+        },
+        {
+          "variant": "ClientHints"
+        },
+        {
+          "name": "upgrade-insecure-requests",
+          "value": "1",
+          "variant": "Literal"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "variant": "Literal"
+        },
+        {
+          "name": "accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "variant": "Literal"
+        },
+        {
+          "variant": "RestartClientHints"
+        },
+        {
+          "name": "sec-fetch-site",
+          "trustworthy": "none",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "trustworthy": "navigate",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "sec-fetch-user",
+          "trustworthy": "?1",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "trustworthy": "document",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "accept-encoding",
+          "trustworthy": "gzip, deflate, br, zstd",
+          "untrustworthy": "gzip, deflate",
+          "variant": "ByTrust"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9",
+          "variant": "Literal"
+        },
+        {
+          "name": "priority",
+          "value": "u=0, i",
+          "variant": "Literal"
+        }
+      ],
+      "http2_priority": {
+        "exclusive": true,
+        "variant": "WeightBand",
+        "weight": 256
+      },
+      "http3_fields": [
+        {
+          "variant": "ClientHints"
+        },
+        {
+          "name": "upgrade-insecure-requests",
+          "value": "1",
+          "variant": "Literal"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "variant": "Literal"
+        },
+        {
+          "name": "accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "variant": "Literal"
+        },
+        {
+          "variant": "RestartClientHints"
+        },
+        {
+          "name": "sec-fetch-site",
+          "trustworthy": "none",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "trustworthy": "navigate",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "sec-fetch-user",
+          "trustworthy": "?1",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "trustworthy": "document",
+          "untrustworthy": null,
+          "variant": "ByTrust"
+        },
+        {
+          "name": "accept-encoding",
+          "trustworthy": "gzip, deflate, br, zstd",
+          "untrustworthy": "gzip, deflate",
+          "variant": "ByTrust"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9",
+          "variant": "Literal"
+        },
+        {
+          "name": "priority",
+          "value": "u=0, i",
+          "variant": "Literal"
+        }
+      ],
+      "requested_client_hint_placement": true,
+      "restarts_for_connection_accept_ch": true
+    },
+    "tcp": {
+      "address_selection": {
+        "fallback_delay": {
+          "nanoseconds": 300000000,
+          "seconds": 0
+        },
+        "kind": "Racing"
+      },
+      "keepalive": {
+        "idle": {
+          "nanoseconds": 0,
+          "seconds": 45
+        },
+        "interval": {
+          "nanoseconds": 0,
+          "seconds": 45
+        },
+        "kind": "Fixed"
+      },
+      "nodelay": true,
+      "option_policy": "BestEffort",
+      "port_randomization": null,
+      "send_buffer_size": null
+    },
+    "tls": {
+      "aes_hardware": true,
+      "alpn_protocols": [
+        [
+          104,
+          50
+        ],
+        [
+          104,
+          116,
+          116,
+          112,
+          47,
+          49,
+          46,
+          49
+        ]
+      ],
+      "alps": {
+        "protocol": [
+          104,
+          50
+        ],
+        "settings": [],
+        "use_new_codepoint": true
+      },
+      "certificate_compression": [
+        "Brotli"
+      ],
+      "cipher_suites": [
+        "Aes128GcmSha256",
+        "Aes256GcmSha384",
+        "Chacha20Poly1305Sha256",
+        "EcdheEcdsaAes128GcmSha256",
+        "EcdheRsaAes128GcmSha256",
+        "EcdheEcdsaAes256GcmSha384",
+        "EcdheRsaAes256GcmSha384",
+        "EcdheEcdsaChacha20Poly1305Sha256",
+        "EcdheRsaChacha20Poly1305Sha256",
+        "EcdheRsaAes128CbcSha",
+        "EcdheRsaAes256CbcSha",
+        "RsaAes128GcmSha256",
+        "RsaAes256GcmSha384",
+        "RsaAes128CbcSha",
+        "RsaAes256CbcSha"
+      ],
+      "close_notify": false,
+      "delegated_credential_schemes": [],
+      "ech": {
+        "kind": "HttpsRecords",
+        "settings": {
+          "aeads": [],
+          "payload_length": {
+            "kind": "BackendDefault",
+            "value": null
+          }
+        }
+      },
+      "extension_order": {
+        "extensions": [],
+        "kind": "Permuted"
+      },
+      "grease": true,
+      "grease_signature_algorithms": true,
+      "groups": [
+        "X25519MlKem768",
+        "X25519",
+        "Secp256r1",
+        "Secp384r1"
+      ],
+      "key_shares": [
+        "X25519MlKem768",
+        "X25519"
+      ],
+      "record_size_limit": null,
+      "request_ocsp_staple": true,
+      "request_signed_certificate_timestamps": true,
+      "requested_trust_anchor_ids": {
+        "kind": "Fixed",
+        "orders": []
+      },
+      "session_ticket_extension_when_resuming": true,
+      "session_ticket_order": "NewestFirst",
+      "session_tickets": {
+        "enabled": true,
+        "tcp_per_origin": 2
+      },
+      "signature_schemes": [
+        "MlDsa44",
+        "MlDsa65",
+        "MlDsa87",
+        "EcdsaSecp256r1Sha256",
+        "RsaPssRsaeSha256",
+        "RsaPkcs1Sha256",
+        "EcdsaSecp384r1Sha384",
+        "RsaPssRsaeSha384",
+        "RsaPkcs1Sha384",
+        "RsaPssRsaeSha512",
+        "RsaPkcs1Sha512"
+      ],
+      "tcp_early_data": false,
+      "tls12_extensions_in_tls13_client_hello": false,
+      "versions": {
+        "max": "Tls13",
+        "min": "Tls12"
+      }
+    },
+    "udp": {
+      "option_policy": "BestEffort",
+      "port_randomization": true
+    },
+    "websocket": null
+  },
+  "version": 2
+}
